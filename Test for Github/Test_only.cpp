@@ -1,8 +1,0 @@
-#include<iostream>
-using namespace std;
-
-int main() {
-	cout << "hello github" << endl;
-	system("pause");
-	return 0;
-}
