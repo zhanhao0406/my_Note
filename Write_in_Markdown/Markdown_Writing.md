@@ -32,6 +32,23 @@ int main(){
   return 0;
 }
 ```
+折叠代码块，点击展开。使用< details >作为开头，< summary > 和反斜杠< /summary >之间内容作为展开词；然后<mark>之后必须要空一行</mark>，然后结尾了再用反斜杠< /details >。例如：  
+<details>
+ 
+隐藏的第一行，  
+隐藏的第二行，     
+<summary><mark>想展开就点击！</mark></summary>  
+ 
+```c++
+ //隐藏的代码块
+cout<< "hello
+   world " << endl;
+   //隐藏
+```
+ 
+</details>
+
+
 ---
 ## 数学公式 
 * "四个美元符号，中间写公式。 第一行两个，第二行公式， 第三行两个"
